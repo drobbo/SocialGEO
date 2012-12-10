@@ -1,0 +1,545 @@
+/* 
+    Document   : main
+    Created on : 11-nov-2012, 22:23:38
+    Author     : robbeanckaert
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('assets/fonts/Roboto-Regular-webfont.eot');
+    src: url('assets/fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-Regular-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-Regular-webfont.svg#RobotoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url('assets/fonts/Roboto-Italic-webfont.eot');
+    src: url('assets/fonts/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-Italic-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-Italic-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-Italic-webfont.svg#RobotoItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('assets/fonts/Roboto-Bold-webfont.eot');
+    src: url('assets/fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-Bold-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-Bold-webfont.svg#RobotoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoBoldItalic';
+    src: url('assets/fonts/Roboto-BoldItalic-webfont.eot');
+    src: url('assets/fonts/Roboto-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-BoldItalic-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-BoldItalic-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-BoldItalic-webfont.svg#RobotoBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('assets/fonts/Roboto-Condensed-webfont.eot');
+    src: url('assets/fonts/Roboto-Condensed-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-Condensed-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-Condensed-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-Condensed-webfont.svg#RobotoCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoCondensedItalic';
+    src: url('assets/fonts/Roboto-CondensedItalic-webfont.eot');
+    src: url('assets/fonts/Roboto-CondensedItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-CondensedItalic-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-CondensedItalic-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-CondensedItalic-webfont.svg#RobotoCondensedItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoBoldCondensed';
+    src: url('assets/fonts/Roboto-BoldCondensed-webfont.eot');
+    src: url('assets/fonts/Roboto-BoldCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-BoldCondensed-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-BoldCondensed-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-BoldCondensed-webfont.svg#RobotoBoldCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoBoldCondensedItalic';
+    src: url('assets/fonts/Roboto-BoldCondensedItalic-webfont.eot');
+    src: url('assets/fonts/Roboto-BoldCondensedItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-BoldCondensedItalic-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-BoldCondensedItalic-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-BoldCondensedItalic-webfont.svg#RobotoBoldCondensedItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('assets/fonts/Roboto-Thin-webfont.eot');
+    src: url('assets/fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-Thin-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-Thin-webfont.svg#RobotoThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoThinItalic';
+    src: url('assets/fonts/Roboto-ThinItalic-webfont.eot');
+    src: url('assets/fonts/Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-ThinItalic-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-ThinItalic-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('assets/fonts/Roboto-Light-webfont.eot');
+    src: url('assets/fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-Light-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-Light-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-Light-webfont.svg#RobotoLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoLightItalic';
+    src: url('assets/fonts/Roboto-LightItalic-webfont.eot');
+    src: url('assets/fonts/Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-LightItalic-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-LightItalic-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-LightItalic-webfont.svg#RobotoLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('assets/fonts/Roboto-Medium-webfont.eot');
+    src: url('assets/fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-Medium-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoMediumItalic';
+    src: url('assets/fonts/Roboto-MediumItalic-webfont.eot');
+    src: url('assets/fonts/Roboto-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-MediumItalic-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-MediumItalic-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-MediumItalic-webfont.svg#RobotoMediumItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoBlack';
+    src: url('assets/fonts/Roboto-Black-webfont.eot');
+    src: url('assets/fonts/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-Black-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-Black-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-Black-webfont.svg#RobotoBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoBlackItalic';
+    src: url('assets/fonts/Roboto-BlackItalic-webfont.eot');
+    src: url('assets/fonts/Roboto-BlackItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Roboto-BlackItalic-webfont.woff') format('woff'),
+    url('assets/fonts/Roboto-BlackItalic-webfont.ttf') format('truetype'),
+    url('assets/fonts/Roboto-BlackItalic-webfont.svg#RobotoBlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*
+    MAIN ELEMENTS
+*/
+
+
+
+
+
+root { 
+    display: block;
+}
+
+html, body, #bg_map_canvas {
+margin: 0;
+padding: 0;
+height: 100%;
+}
+
+#map_canvas{
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+
+#map_canvas.hidden{
+    height: 0;
+    display: none;
+}
+
+
+body{
+    border-top-width: 3px;
+    border-top-color: #33B5E5;
+    border-top-style: solid;
+    
+    font-family:  "robotothin", "Helvetica", "Arial", sans-serif;
+}
+
+a {
+    color:#33B5E5;
+    text-decoration: none;
+}
+a:hover, a:visited{
+    color: #0099CC;
+}
+
+#bodyContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+aside{
+    float: right;
+    width: 20%;
+    min-width: 180px;
+    max-width: 350px;
+}
+
+aside ul li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+aside ul {
+    padding: 0;
+    margin:0;
+}
+
+aside input, aside a.button{
+    width: 100%;
+}
+
+#container{
+    float: left;
+    width: 80%;
+}
+
+
+/*
+    FORMS
+*/
+
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="text"],input[type="text"]:focus{
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #33B5E5;
+    width: 71%;
+    outline: none;
+    padding:2%;
+    text-indent: 15px;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+    background: none;
+    background-image: url('assets/images/semitrans.png');
+    background-repeat: repeat;
+    background-position: top left;
+}
+
+input::-webkit-input-placeholder {
+    color: #121212;
+}
+input:-moz-placeholder {
+    color: #121212;
+}
+input:-ms-input-placeholder {
+    color: #121212;
+}​
+
+
+button, input[type="button"], input[type="reset"], input[type="submit"],a.button {
+    border: none;
+    color: #ffffff;
+    background: none;
+    background-color: #33B5E5;
+    padding-top:2%;
+    padding-bottom:2%;
+    width: 25%;
+    clear: none;
+    float: left;
+}
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, a.button:hover {
+    background-color: #0099CC;
+}
+
+legend{
+   display: none;
+}
+
+
+
+/*
+    NAVIGATION
+*/
+
+header{
+    background-color: #333333;
+    color:#ffffff;
+    float: left;
+    width: 100%;
+    height:50px;
+    margin: 0;
+    padding: 0;
+    font-family: "RobotoLight","RobotoThin", "Helvetica", "Arial", sans-serif;
+    z-index: 999;
+    float: left;
+    clear: both;
+    position: relative;
+}
+
+header#subMenu{
+    background-color: #444444;
+    z-index: 998;
+}
+
+header nav{
+    margin-left: 100px;
+}
+
+header nav#loginNav{
+    margin-right: 100px;
+    float: right;
+    height: 100%;
+}
+#loginNav form{
+    float: left;
+}
+#loginForm{
+    right: 0;
+}
+
+#loginForm input, #loginForm label, #loginForm input[type="text"], #loginForm input[type="password"], #loginForm input[type="email"]{
+    margin: 0;
+    border: none;
+    height:38px;
+    float: left;
+    clear: both;
+    margin-top:4px;
+    margin-bottom:4px;
+    padding: 2px 10px;
+    width: 140px;
+    font-family:  'RobotoRegular', 'Helvetica', 'Arial', 'sans-serif';
+    
+}
+
+#loginNav input[type="submit"]{
+    height:42px;
+    width: 160px;
+}
+
+nav ul li div.content{
+    background-color: #333333;
+    color: #ffffff;
+    width:160px;
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    display: none;
+    text-align: left;
+    font-family:  'RobotoThin', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+nav ul li:hover div.content{
+    display: block;
+}
+
+
+nav, nav ul , nav ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+nav ul li a{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height:45px;
+    line-height: 45px;
+    vertical-align: middle;
+    text-align: center;
+}
+nav ul li a.selected, nav ul li a:hover{
+    border-bottom-color: #0099CC;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+
+
+/*
+    CONTENT
+*/
+#content{
+    float: left;
+}
+#title{
+    width: 700px;
+    height: 140px;
+    margin-bottom: -109px;
+    font-size: 145px;
+    position: absolute;
+    left: -100px;
+    padding: 0;
+    top:-30px;
+    background-image: url(assets/images/title.png);
+}
+#title span{
+    display: none;
+}
+
+#bigLogo{
+    z-index: 1;
+    height:500px;
+    width: 500px;
+    margin-bottom: -300px;
+    background-image: url('assets/images/logo.png');
+}
+
+/* landing page */
+.centered{
+    float: left;
+    clear: both;
+    width: 500px;
+}
+.centered form{
+    z-index: 100;
+    background-image: url('assets/images/semitrans.png');
+    background-repeat: repeat;
+    background-position: top left;
+    padding: 5%;
+}
+.centered label,.centered input{
+    float: left;
+    font-size: 30px;
+}
+.centered label{
+    margin-bottom: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.centered p{
+    margin-top:15px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#QSlocationInput{
+    width: 66%;
+}
+
+#QSSubmit{
+    width: 30%;
+}
+
+#QSlocationButton{
+    width: 100%;
+}
+
+#eventsGrid{
+
+}
+#eventsGrid article{
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#eventsGrid article img{
+    height: 100%;
+    width: 100%;
+}
+
+#eventsList{
+    width: 100%;
+    float: left;
+}
+#eventsList article{
+    width: 80%;
+    padding: 10px 10%;
+    float: left;
+    clear: both;
+}
+
+

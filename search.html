@@ -1,0 +1,109 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SocialGEO - Search</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" href="_css/normalize.css" rel="stylesheet" media="all">
+        <link type="text/css" href="_css/main.css" rel="stylesheet" media="all">
+        <script src="_scripts/jquery-1.7.1.min.js" type="text/javascript" ></script>
+        <script src="_scripts/modernizr-2.0.6.js" type="text/javascript" ></script>
+        <script src="_scripts/jquery.masonry.min.js" type="text/javascript" ></script>
+
+        
+    </head>
+    <body>
+        <div id="bodyContainer">
+           <header>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a><div class="content"><p>This is a small about panel</p></div></li>
+                        <li><a href="#">Team</a><div class="content"><p>This is a first introduction to the development team</p></div></li>
+                    </ul>
+                </nav>
+                <nav id="loginNav">
+                    <ul>
+                        <li>
+                            <a href="#">Login</a>
+                            <div class="content" id="loginForm">
+                                <form>
+                                    <input type="email" placeholder="email">
+                                    <input type="password" placeholder="Password">
+                                    <input type="submit" value="Login">
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+
+                </nav>
+            </header>
+
+           </header>
+            <aside id="sidebar">
+                <h4>Filter results:</h4>
+                <ul>
+                    <li><input type="text" placeholder="location"></li>
+                    <li><input type="text" placeholder="location"></li>
+                    <li><input type="button" value="show map"></li>
+                    <li><a class="button" href="" id="hidemapButton">Show map</a></li>
+                </ul>
+
+
+            </aside>
+            <div id="container">
+
+                <div id="map_canvas"></div>
+                <div id="eventsGrid">
+                    <article>
+                        <a href="">
+                            <h3>the event Title</h3>
+                            <img src="_assets/images/img1.jpg" alt="img1" title="img1">
+                        </a>
+                    </article><article>
+                        <a href="">
+                            <h3>the event Title</h3>
+                            <img src="_assets/images/img1.jpg" alt="img1" title="img1">
+                        </a>
+                    </article><article>
+                        <a href="">
+                            <h3>the event Title</h3>
+                            <img src="_assets/images/img1.jpg" alt="img1" title="img1">
+                        </a>
+                    </article><article>
+                        <a href="">
+                            <h3>the event Title</h3>
+                            <img src="_assets/images/img1.jpg" alt="img1" title="img1">
+                        </a>
+                    </article><article>
+                        <a href="">
+                            <h3>the event Title</h3>
+                            <img src="_assets/images/img1.jpg" alt="img1" title="img1">
+                        </a>
+                    </article><article>
+                        <a href="">
+                            <h3>the event Title</h3>
+                            <img src="_assets/images/img1.jpg" alt="img1" title="img1">
+                        </a>
+                    </article><article>
+                        <a href="">
+                            <h3>the event Title</h3>
+                            <img src="_assets/images/img1.jpg" alt="img1" title="img1">
+                        </a>
+                    </article><article>
+                        <a href="">
+                            <h3>the event Title</h3>
+                            <img src="_assets/images/img1.jpg" alt="img1" title="img1">
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <script src="_scripts/main.js" type="text/javascript" ></script>
+    </body>
+    
+</html>
